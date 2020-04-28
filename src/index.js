@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App'; //App.js
+import App from './App'; //App.js
 //import Card from './Card'; //card.js
-import CardList from './CardList';
+//import CardList from './CardList';
 import 'tachyons';
-import {robots} from './robots'; //use ./fileName if the file is in same directory
+//import {robots} from './robots'; //use ./fileName if the file is in same directory
 import * as serviceWorker from './serviceWorker';
 
 /*ReactDOM.render(
@@ -16,7 +16,7 @@ import * as serviceWorker from './serviceWorker';
 );*/
 //div is use to return single element
 ReactDOM.render(
-	<CardList robots={robots}/>
+	<App/>
 	,document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

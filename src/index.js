@@ -7,6 +7,8 @@ import App from './App'; //App.js
 import 'tachyons';
 //import {robots} from './robots'; //use ./fileName if the file is in same directory
 import * as serviceWorker from './serviceWorker';
+//import searchBox from './searchBox';
+//import Rrest from './test';
 
 /*ReactDOM.render(
   <React.StrictMode>
